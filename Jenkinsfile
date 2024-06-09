@@ -28,7 +28,7 @@ pipeline {
             steps {
                 echo 'Deliver....NEW'
                 sh '''
-                echo "doing delivery stuff.."
+                echo "doing delivery stuff NEW.."
                 '''
             }
         }
