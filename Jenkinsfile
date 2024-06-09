@@ -23,15 +23,15 @@ pipeline {
                 sh '''
                 cd myapp
                 python3 hello.py
-                python3 hello.py --name=Zain
+                python3 hello.py --name=Brad
                 '''
             }
         }
         stage('Deliver') {
             steps {
-                echo 'Deliver....NEW'
+                echo 'Deliver....'
                 sh '''
-                echo "doing delivery stuff NEW.."
+                echo "doing delivery stuff.."
                 '''
             }
         }
